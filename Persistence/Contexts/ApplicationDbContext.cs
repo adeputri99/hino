@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SkeletonApi.Domain.Common.Abstracts;
 using SkeletonApi.Domain.Common.Interfaces;
 using SkeletonApi.Domain.Entities;
+using SkeletonApi.Domain.Entities.Tsdb;
 using System.Data;
 
 namespace SkeletonApi.Persistence.Contexts
@@ -28,6 +29,7 @@ namespace SkeletonApi.Persistence.Contexts
         public DbSet<Operator> Operators => Set<Operator>();
         public DbSet<Zone> Zones => Set<Zone>();
         public DbSet<Types> Types => Set<Types>();
+        public DbSet<DeviceData> DeviceData => Set<DeviceData>();
         public DbSet<SettingTask> SettingTasks => Set<SettingTask>();
         public DbSet<ActivityUser> ActivityUsers => Set<ActivityUser>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -16,8 +16,8 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         //CreateMap<EnginePartDto, EnginePart>().ReverseMap();
-        //CreateMap<MqttRawValue, MqttRawValueEntity>()
-        //   .ForMember(c => c.Datetime, opt => opt.MapFrom(src => DateTimeOffset.FromUnixTimeMilliseconds(src.Time).DateTime));
+        CreateMap<MqttRawValue, MqttRawValueEntity>()
+           .ForMember(c => c.Datetime, opt => opt.MapFrom(src => DateTimeOffset.FromUnixTimeMilliseconds(src.Time).DateTime));
         //CreateMap<NotificationModel, Notifications>().ReverseMap();
     }
 }

@@ -334,6 +334,33 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.ToTable("SettingTasks");
                 });
 
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Tsdb.DeviceData", b =>
+                {
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("date_time");
+
+                    b.Property<string>("Id")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Quality")
+                        .HasColumnType("boolean")
+                        .HasColumnName("quality");
+
+                    b.Property<long>("Time")
+                        .HasColumnType("bigint")
+                        .HasColumnName("time");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("value");
+
+                    b.ToTable("DeviceData");
+                });
+
             modelBuilder.Entity("SkeletonApi.Domain.Entities.Types", b =>
                 {
                     b.Property<Guid>("Id")
