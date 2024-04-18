@@ -55,7 +55,7 @@ namespace SkeletonApi.Presentation.Controllers
             return await _mediator.Send(new GetAllRoleQuery());
         }
 
-        [HttpGet("list-role")]
+        [HttpGet("paged")]
         public async Task<ActionResult<PaginatedResult<GetRolesWithPaginationDto>>> GetUserWithPagination([FromQuery] GetRolesWithPaginationQuery query)
         {
             var validator = new GetRolesWithPaginationValidator();

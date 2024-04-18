@@ -27,6 +27,7 @@ namespace SkeletonApi.Persistence.Contexts
         public DbSet<Permission> Permissions => Set<Permission>();
         public DbSet<Operator> Operators => Set<Operator>();
         public DbSet<Zone> Zones => Set<Zone>();
+        public DbSet<Types> Types => Set<Types>();
         public DbSet<SettingTask> SettingTasks => Set<SettingTask>();
         public DbSet<ActivityUser> ActivityUsers => Set<ActivityUser>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -82,6 +83,13 @@ namespace SkeletonApi.Persistence.Contexts
               .WithOne(e => e.Zone)
               .HasForeignKey(e => e.ZoneId)
               .IsRequired(false);
+
+            modelBuilder.Entity<Zone>()
+              .HasMany(e => e.Types)
+              .WithOne(e => e.Zone)
+              .HasForeignKey(e => e.ZoneId)
+              .IsRequired(false);
+
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())

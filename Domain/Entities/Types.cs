@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace SkeletonApi.Domain.Entities
 {
-    public class Zone : BaseAuditableEntity
+    public class Types : BaseAuditableEntity
     {
         [Column("name")]
         public string Name { get; set; }
 
         [Column("task_duration")]
         public int TaskDuration { get; set; }
-
-        public ICollection<Operator> Operators { get; set; } = new List<Operator>();
-        public ICollection<Types> Types { get; set; } = new List<Types>();
+        [Column("zone_id")]
+        public Guid? ZoneId { get; set; }
+        public Zone Zone { get; set; }
     }
 }
