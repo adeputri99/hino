@@ -127,3 +127,15 @@ C:\HINO\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.
 C:\HINO\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\refint\SkeletonApi.Shared.dll
 C:\HINO\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.pdb
 C:\HINO\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\ref\SkeletonApi.Shared.dll
+D:\HINO\SkeletonApi\SkeletonApi.Shared\bin\Debug\net6.0\SkeletonApi.Shared.deps.json
+D:\HINO\SkeletonApi\SkeletonApi.Shared\bin\Debug\net6.0\SkeletonApi.Shared.dll
+D:\HINO\SkeletonApi\SkeletonApi.Shared\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.AssemblyInfoInputs.cache
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.AssemblyInfo.cs
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.csproj.CoreCompileInputs.cache
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.sourcelink.json
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.dll
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\refint\SkeletonApi.Shared.dll
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\HINO\SkeletonApi\SkeletonApi.Shared\obj\Debug\net6.0\ref\SkeletonApi.Shared.dll
