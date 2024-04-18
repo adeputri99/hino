@@ -1,0 +1,2161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\HINO\\HINO\\SkeletonApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\settingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\settingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\activityusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\activityusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\mqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\mqttclientserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\mqttclientserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\persistedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\persistedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\notificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\notificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\mqttclientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\mqttclientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\brokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\brokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\imqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\imqttclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\activityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\activityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\dapper\\devicedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\dapper\\devicedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\configuration\\dapper\\idivicedaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\configuration\\dapper\\idivicedaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\configuration\\dapper\\ienginepartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\configuration\\dapper\\ienginepartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\store\\notificationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\store\\notificationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\tsdb\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\tsdb\\devicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\features\\managementuser\\permissions\\queries\\getpermissionswithpagination\\getpermissionswithpaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\features\\managementuser\\permissions\\queries\\getpermissionswithpagination\\getpermissionswithpaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\store\\statusmachinestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\store\\statusmachinestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\iservicecollectionextensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\iservicecollectionextensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\genrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\genrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\genericrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\common\\mappings\\mappingprofilecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\common\\mappings\\mappingprofilecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\features\\managementuser\\users\\commands\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\features\\managementuser\\users\\commands\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\igenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\igenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\iauthenticationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\iauthenticationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\configurationmodels\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\configurationmodels\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\interfaces\\idomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\interfaces\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\interfaces\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\abstracts\\basemanytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\abstracts\\basemanytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|solutionrelative:skeletonapi.shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|solutionrelative:skeletonapi.shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.shared\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|solutionrelative:skeletonapi.shared\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.shared\\interfaces\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|solutionrelative:skeletonapi.shared\\interfaces\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.shared\\constants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B19C49-4804-4504-AC15-FE0DFDFF3CD7}|SkeletonApi.Shared\\SkeletonApi.Shared.csproj|solutionrelative:skeletonapi.shared\\constants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\extensions\\configurejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\extensions\\configurejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\extensions\\errorhandlerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\extensions\\errorhandlerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\extensions\\configurejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\extensions\\configurejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\setting\\corssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\setting\\corssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\contextfactory\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\contextfactory\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\extensions\\configurecorspolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\extensions\\configurecorspolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\extensions\\configureapibehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\extensions\\configureapibehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|c:\\hino\\hino\\skeletonapi\\infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|solutionrelative:infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E45AAE-A89E-4B3E-B9E3-37C6A844E1AF}|LoggerService\\LoggerService.csproj|c:\\hino\\hino\\skeletonapi\\loggerservice\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E45AAE-A89E-4B3E-B9E3-37C6A844E1AF}|LoggerService\\LoggerService.csproj|solutionrelative:loggerservice\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\features\\notification\\queries\\getlistnotif\\getlistnotifquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\features\\notification\\queries\\getlistnotif\\getlistnotifquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\features\\notification\\queries\\getlistnotif\\getlistnotifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\features\\notification\\queries\\getlistnotif\\getlistnotifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\healthchecksconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\healthchecksconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\signalrconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\signalrconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\handler\\iiothubnotificationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\handler\\iiothubnotificationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\inotificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\inotificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\skeletonapi.iothub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\skeletonapi.iothub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.presentation\\skeletonapi.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49B37BCC-8364-4D1B-9A74-A8C7C9AE4938}|SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj|solutionrelative:skeletonapi.presentation\\skeletonapi.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\settings\\corssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\settings\\corssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\settings\\agentmqttclientsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\settings\\agentmqttclientsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\settings\\mqttbrokersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\settings\\mqttbrokersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\helpers\\extensionshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\helpers\\extensionshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\ibrokerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\ibrokerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\handler\\iothubmachinehealtheventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\handler\\iothubmachinehealtheventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\handler\\iiothubmachinehealtheventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\handler\\iiothubmachinehealtheventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\model\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\model\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\imachinehealthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\imachinehealthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\hubs\\machinehealthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\hubs\\machinehealthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\services\\handler\\iiothubeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\services\\handler\\iiothubeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\abstracts\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\abstracts\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\common\\behaviors\\validatorbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\common\\behaviors\\validatorbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\dapper\\dapperunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\dapper\\dapperunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|c:\\hino\\hino\\skeletonapi\\infrastructure\\services\\restapiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|solutionrelative:infrastructure\\services\\restapiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\dtos\\machinestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\dtos\\machinestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\dependencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\dependencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\corsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\corsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\authorizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\authorizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\configurations\\authenticationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\configurations\\authenticationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\commons\\brokereventtopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\commons\\brokereventtopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\commons\\brokercommandtopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\commons\\brokercommandtopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\common\\mappings\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\common\\mappings\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.iothub\\options\\aspcoremanagedmqttclientoptionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A30DFA53-2FC3-4C69-AB0F-B0A4F179A29A}|SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj|solutionrelative:skeletonapi.iothub\\options\\aspcoremanagedmqttclientoptionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\iloggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\iloggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|c:\\hino\\hino\\skeletonapi\\infrastructure\\skeletonapi.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC273E9B-AF2A-4BE3-9527-9F27CCEA1B0A}|Infrastructure\\SkeletonApi.Infrastructure.csproj|solutionrelative:infrastructure\\skeletonapi.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|c:\\hino\\hino\\skeletonapi\\skeletonapi.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81986D20-002F-47CE-9CAF-E2DF0FF4BE10}|SkeletonApi.WebAPI\\SkeletonApi.WebAPI.csproj|solutionrelative:skeletonapi.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fpras\\backend-master\\SkeletonApi.WebAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\interfaces\\idappergetunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\interfaces\\idappergetunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\interfaces\\idapperunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\interfaces\\idapperunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\interfaces\\idappercreateunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\interfaces\\idappercreateunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|c:\\hino\\hino\\skeletonapi\\domain\\common\\abstracts\\tsdb\\tsdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3D9D1-5477-4055-B1DF-FAFE05840B05}|Domain\\SkeletonApi.Domain.csproj|solutionrelative:domain\\common\\abstracts\\tsdb\\tsdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\configuration\\dapperwritedbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\configuration\\dapperwritedbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\configuration\\dapperreaddbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\configuration\\dapperreaddbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|c:\\hino\\hino\\skeletonapi\\persistence\\repositories\\configuration\\npgsqlconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97973183-791D-45CD-9A7E-0228DD326BB0}|Persistence\\SkeletonApi.Persistence.csproj|solutionrelative:persistence\\repositories\\configuration\\npgsqlconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\irestapiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\irestapiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|c:\\hino\\hino\\skeletonapi\\application\\interfaces\\repositories\\configuration\\idapperreaddbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84910A21-873E-4908-89E0-FEECA6DB1ABE}|Application\\SkeletonApi.Application.csproj|solutionrelative:application\\interfaces\\repositories\\configuration\\idapperreaddbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20231207093402_part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\Application\\Features\\Accounts\\Commands\\CreateAccount\\CreateAccountCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240418021601_db_hino.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Migrations\\20240418021601_db_hino.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T02:16:01.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "Domain\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T02:08:36.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T02:08:12.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Operator.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Operator.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Operator.cs",
+              "RelativeToolTip": "Domain\\Entities\\Operator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:18:45.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingTask.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\SettingTask.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\SettingTask.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\SettingTask.cs",
+              "RelativeToolTip": "Domain\\Entities\\SettingTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:29:11.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Zone.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Zone.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Zone.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Zone.cs",
+              "RelativeToolTip": "Domain\\Entities\\Zone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:26:37.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\NotificationsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwB8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Permissions.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Permissions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Permissions.cs",
+              "RelativeToolTip": "Domain\\Entities\\Permissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:18:17.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:25:51.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:25:15.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActivityUserController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\ActivityUserController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\ActivityUserController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\ActivityUserController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\ActivityUserController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:26:04.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\AssemblyReference.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "SkeletonApi.Presentation\\AssemblyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\appsettings.json",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\appsettings.json",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\appsettings.json",
+              "RelativeToolTip": "SkeletonApi.IotHub\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:39:09.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\appsettings.json",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:39:09.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MqttClientService.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\MqttClientService.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\MqttClientService.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\MqttClientService.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\MqttClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MqttClientServiceProvider.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\MqttClientServiceProvider.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\MqttClientServiceProvider.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\MqttClientServiceProvider.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\MqttClientServiceProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PersistedConsumer.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\PersistedConsumer.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\PersistedConsumer.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\PersistedConsumer.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\PersistedConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotificationConsumer.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\NotificationConsumer.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\NotificationConsumer.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\NotificationConsumer.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\NotificationConsumer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAjwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MqttClientConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\MqttClientConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\MqttClientConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\MqttClientConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\MqttClientConfiguration.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAtwDQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BrokerHub.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\BrokerHub.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\BrokerHub.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\BrokerHub.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\BrokerHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IMqttClientService.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\IMqttClientService.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\IMqttClientService.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\IMqttClientService.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\IMqttClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\MappingProfile.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\MappingProfile.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Program.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Program.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Program.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAjwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ActivityUser.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\ActivityUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ActivityUser.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\ActivityUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\ActivityUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:59:38.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Notification.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "Domain\\Entities\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeviceDataRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Dapper\\DeviceDataRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\Dapper\\DeviceDataRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Dapper\\DeviceDataRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\Dapper\\DeviceDataRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IDiviceDateRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IDiviceDateRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IDiviceDateRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IDiviceDateRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IDiviceDateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEnginePartRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IEnginePartRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IEnginePartRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IEnginePartRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\Configuration\\Dapper\\IEnginePartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NotificationStore.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Store\\NotificationStore.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Store\\NotificationStore.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Store\\NotificationStore.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Store\\NotificationStore.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAD4vxwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Application\\Extensions\\IServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeviceData.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Tsdb\\DeviceData.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Tsdb\\DeviceData.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Tsdb\\DeviceData.cs",
+              "RelativeToolTip": "Domain\\Entities\\Tsdb\\DeviceData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:50:27.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetPermissionsWithPaginationQuery.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\ManagementUser\\Permissions\\Queries\\GetPermissionsWithPagination\\GetPermissionsWithPaginationQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\ManagementUser\\Permissions\\Queries\\GetPermissionsWithPagination\\GetPermissionsWithPaginationQuery.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\ManagementUser\\Permissions\\Queries\\GetPermissionsWithPagination\\GetPermissionsWithPaginationQuery.cs",
+              "RelativeToolTip": "Application\\Features\\ManagementUser\\Permissions\\Queries\\GetPermissionsWithPagination\\GetPermissionsWithPaginationQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:37:44.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StatusMachineStore.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Store\\StatusMachineStore.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Store\\StatusMachineStore.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Store\\StatusMachineStore.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Store\\StatusMachineStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAD4vycAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\IServiceCollectionExtensions\\IServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Persistence\\IServiceCollectionExtensions\\IServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\IServiceCollectionExtensions\\IServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Persistence\\IServiceCollectionExtensions\\IServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\AuthenticationRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\AuthenticationRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\AuthenticationRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAADgv00AAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:56:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAIBQwHEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:30:26.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GenRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\GenRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\GenRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\GenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:29:46.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DataRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\DataRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\DataRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\DataRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\DataRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MappingProfilecs.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Mappings\\MappingProfilecs.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Mappings\\MappingProfilecs.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Mappings\\MappingProfilecs.cs",
+              "RelativeToolTip": "Application\\Common\\Mappings\\MappingProfilecs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GenericRepositorycs.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\GenericRepositorycs.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepositorycs.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\GenericRepositorycs.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\GenericRepositorycs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DeleteUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\ManagementUser\\Users\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\ManagementUser\\Users\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\ManagementUser\\Users\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\ManagementUser\\Users\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:24:15.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:16:57.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IRoleRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IRoleRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IRoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:16:30.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IGenRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IGenRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IGenRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IGenRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IGenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:15:55.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IDataRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IDataRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IDataRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IDataRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IDataRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:15:31.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAuthenticationUserRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IAuthenticationUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IAuthenticationUserRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IAuthenticationUserRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IAuthenticationUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:15:23.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\INotificationRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\INotificationRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\INotificationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "JwtConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\ConfigurationModels\\JwtConfiguration.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ConfigurationModels\\JwtConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\ConfigurationModels\\JwtConfiguration.cs",
+              "RelativeToolTip": "Domain\\Entities\\ConfigurationModels\\JwtConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:59.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:59:10.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Entities\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:59:07.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Account.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Entities\\Account.cs",
+              "RelativeToolTip": "Domain\\Entities\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Interfaces\\IEntity.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IEntity.cs",
+              "RelativeToolTip": "Domain\\Common\\Interfaces\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:52.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IDomainEventDispatcher.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Interfaces\\IDomainEventDispatcher.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IDomainEventDispatcher.cs",
+              "RelativeToolTip": "Domain\\Common\\Interfaces\\IDomainEventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:51.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IAuditableEntity.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IAuditableEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Interfaces\\IAuditableEntity.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Interfaces\\IAuditableEntity.cs",
+              "RelativeToolTip": "Domain\\Common\\Interfaces\\IAuditableEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:49.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BaseManyToMany.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\BaseManyToMany.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Abstracts\\BaseManyToMany.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\BaseManyToMany.cs",
+              "RelativeToolTip": "Domain\\Common\\Abstracts\\BaseManyToMany.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:38.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Result.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Shared\\Result.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Result.cs",
+              "RelativeToolTip": "SkeletonApi.Shared\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:54:44.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Shared\\PaginatedResult.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\PaginatedResult.cs",
+              "RelativeToolTip": "SkeletonApi.Shared\\PaginatedResult.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:54:35.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\MetaData.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Shared\\MetaData.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\MetaData.cs",
+              "RelativeToolTip": "SkeletonApi.Shared\\MetaData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:54:32.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Interfaces\\IResult.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Shared\\Interfaces\\IResult.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Interfaces\\IResult.cs",
+              "RelativeToolTip": "SkeletonApi.Shared\\Interfaces\\IResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:54:28.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Constants\\Permissions.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.Shared\\Constants\\Permissions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Shared\\Constants\\Permissions.cs",
+              "RelativeToolTip": "SkeletonApi.Shared\\Constants\\Permissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:53:53.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Program.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Program.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ConfigureJwt.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureJwt.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Extensions\\ConfigureJwt.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureJwt.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Extensions\\ConfigureJwt.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:45:14.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ErrorHandlerExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ErrorHandlerExtensions.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Extensions\\ErrorHandlerExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ErrorHandlerExtensions.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Extensions\\ErrorHandlerExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ConfigureJwt.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Extensions\\ConfigureJwt.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Extensions\\ConfigureJwt.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Extensions\\ConfigureJwt.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Extensions\\ConfigureJwt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:39:09.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CorsSettings.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Setting\\CorsSettings.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Setting\\CorsSettings.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Setting\\CorsSettings.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Setting\\CorsSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:44:58.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\ContextFactory\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\ContextFactory\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\ContextFactory\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\ContextFactory\\ApplicationDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:47:56.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ConfigureCorsPolicy.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureCorsPolicy.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Extensions\\ConfigureCorsPolicy.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureCorsPolicy.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Extensions\\ConfigureCorsPolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ConfigureApiBehavior.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureApiBehavior.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Extensions\\ConfigureApiBehavior.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Extensions\\ConfigureApiBehavior.cs",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Extensions\\ConfigureApiBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\appsettings.json",
+              "RelativeDocumentMoniker": "Infrastructure\\appsettings.json",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\appsettings.json",
+              "RelativeToolTip": "Infrastructure\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:43:52.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LoggerManager.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\LoggerService\\LoggerManager.cs",
+              "RelativeDocumentMoniker": "LoggerService\\LoggerManager.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\LoggerService\\LoggerManager.cs",
+              "RelativeToolTip": "LoggerService\\LoggerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Extensions\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\Extensions\\QueryableExtensions.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Extensions\\QueryableExtensions.cs",
+              "RelativeToolTip": "Application\\Extensions\\QueryableExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "GetListNotifDto.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifDto.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifDto.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifDto.cs",
+              "RelativeToolTip": "Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "GetListNotifQuery.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifQuery.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Notification\\Queries\\GetListNotif\\GetListNotifQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "HealthChecksConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\HealthChecksConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\HealthChecksConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\HealthChecksConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\HealthChecksConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "SignalRConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\SignalRConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\SignalRConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\SignalRConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\SignalRConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IIotHubNotificationEventHandler.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIotHubNotificationEventHandler.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Handler\\IIotHubNotificationEventHandler.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIotHubNotificationEventHandler.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Handler\\IIotHubNotificationEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\NotificationHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "INotificationHub.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\INotificationHub.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\INotificationHub.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\INotificationHub.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\INotificationHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "SkeletonApi.IotHub.csproj",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+              "RelativeToolTip": "SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-01T06:39:09.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "SkeletonApi.Presentation.csproj",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj",
+              "RelativeDocumentMoniker": "SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj",
+              "RelativeToolTip": "SkeletonApi.Presentation\\SkeletonApi.Presentation.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-01T06:39:09.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Settings\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "AgentMqttClientSettings.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\AgentMqttClientSettings.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Settings\\AgentMqttClientSettings.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\AgentMqttClientSettings.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Settings\\AgentMqttClientSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "MqttBrokerSettings.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\MqttBrokerSettings.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Settings\\MqttBrokerSettings.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\MqttBrokerSettings.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Settings\\MqttBrokerSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "CorsSettings.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\CorsSettings.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Settings\\CorsSettings.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Settings\\CorsSettings.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Settings\\CorsSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ExtensionsHelper.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Helpers\\ExtensionsHelper.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Helpers\\ExtensionsHelper.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Helpers\\ExtensionsHelper.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Helpers\\ExtensionsHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "IIotHubMachineHealthEventHandler.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIotHubMachineHealthEventHandler.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Handler\\IIotHubMachineHealthEventHandler.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIotHubMachineHealthEventHandler.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Handler\\IIotHubMachineHealthEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "IotHubMachineHealthEventHandler.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IotHubMachineHealthEventHandler.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Handler\\IotHubMachineHealthEventHandler.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IotHubMachineHealthEventHandler.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Handler\\IotHubMachineHealthEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "IBrokerEvent.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\IBrokerEvent.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\IBrokerEvent.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\IBrokerEvent.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\IBrokerEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "NotificationModel.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Model\\NotificationModel.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Model\\NotificationModel.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Model\\NotificationModel.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Model\\NotificationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IMachineHealthHub.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\IMachineHealthHub.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\IMachineHealthHub.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\IMachineHealthHub.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\IMachineHealthHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "MachineHealthHub.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\MachineHealthHub.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Hubs\\MachineHealthHub.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Hubs\\MachineHealthHub.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Hubs\\MachineHealthHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IIoTHubEventHandler.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIoTHubEventHandler.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Services\\Handler\\IIoTHubEventHandler.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Services\\Handler\\IIoTHubEventHandler.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Services\\Handler\\IIoTHubEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "BaseAuditableEntity.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\BaseAuditableEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Abstracts\\BaseAuditableEntity.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\BaseAuditableEntity.cs",
+              "RelativeToolTip": "Domain\\Common\\Abstracts\\BaseAuditableEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ValidatorBehavior.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Behaviors\\ValidatorBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Behaviors\\ValidatorBehavior.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Behaviors\\ValidatorBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Behaviors\\ValidatorBehavior.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "DapperUnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Dapper\\DapperUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\Dapper\\DapperUnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Dapper\\DapperUnitOfWork.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\Dapper\\DapperUnitOfWork.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA/wCkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "RestApiClientService.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\Services\\RestApiClientService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\RestApiClientService.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\Services\\RestApiClientService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\RestApiClientService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "SubjectDto.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\DTOs\\SubjectDto.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\DTOs\\SubjectDto.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\DTOs\\SubjectDto.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\DTOs\\SubjectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "MachineStatusDto.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\DTOs\\MachineStatusDto.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\DTOs\\MachineStatusDto.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\DTOs\\MachineStatusDto.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\DTOs\\MachineStatusDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "DependencyConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\DependencyConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\DependencyConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\DependencyConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\DependencyConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "AuthorizationConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\AuthorizationConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\AuthorizationConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\AuthorizationConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\AuthorizationConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "AuthenticationConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\AuthenticationConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\AuthenticationConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\AuthenticationConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\AuthenticationConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "BrokerEventTopics.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Commons\\BrokerEventTopics.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Commons\\BrokerEventTopics.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Commons\\BrokerEventTopics.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Commons\\BrokerEventTopics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "CorsConfiguration.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\CorsConfiguration.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Configurations\\CorsConfiguration.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Configurations\\CorsConfiguration.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Configurations\\CorsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "BrokerCommandTopics.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Commons\\BrokerCommandTopics.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Commons\\BrokerCommandTopics.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Commons\\BrokerCommandTopics.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Commons\\BrokerCommandTopics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "IMapFrom.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Mappings\\IMapFrom.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Mappings\\IMapFrom.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Common\\Mappings\\IMapFrom.cs",
+              "RelativeToolTip": "Application\\Common\\Mappings\\IMapFrom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "AspCoreManagedMqttClientOptionBuilder.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Options\\AspCoreManagedMqttClientOptionBuilder.cs",
+              "RelativeDocumentMoniker": "SkeletonApi.IotHub\\Options\\AspCoreManagedMqttClientOptionBuilder.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\Options\\AspCoreManagedMqttClientOptionBuilder.cs",
+              "RelativeToolTip": "SkeletonApi.IotHub\\Options\\AspCoreManagedMqttClientOptionBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "ILoggerManager.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\ILoggerManager.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ILoggerManager.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\ILoggerManager.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ILoggerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "SkeletonApi.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\SkeletonApi.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\SkeletonApi.Infrastructure.csproj",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Infrastructure\\SkeletonApi.Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\SkeletonApi.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-01T06:39:09.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SkeletonApi.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\SkeletonApi.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SkeletonApi.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:39:09.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\fpras\\backend-master\\SkeletonApi.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\fpras\\backend-master\\SkeletonApi.WebAPI\\Program.cs",
+              "ToolTip": "C:\\fpras\\backend-master\\SkeletonApi.WebAPI\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\fpras\\backend-master\\SkeletonApi.WebAPI\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-31T01:54:25.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "IDapperGetUnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperGetUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistence\\Interfaces\\IDapperGetUnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperGetUnitOfWork.cs",
+              "RelativeToolTip": "Persistence\\Interfaces\\IDapperGetUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "IDapperUnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistence\\Interfaces\\IDapperUnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperUnitOfWork.cs",
+              "RelativeToolTip": "Persistence\\Interfaces\\IDapperUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "IDapperCreateUnitOfWork.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperCreateUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistence\\Interfaces\\IDapperCreateUnitOfWork.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Interfaces\\IDapperCreateUnitOfWork.cs",
+              "RelativeToolTip": "Persistence\\Interfaces\\IDapperCreateUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "TsdbEntity.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\Tsdb\\TsdbEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Abstracts\\Tsdb\\TsdbEntity.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Domain\\Common\\Abstracts\\Tsdb\\TsdbEntity.cs",
+              "RelativeToolTip": "Domain\\Common\\Abstracts\\Tsdb\\TsdbEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "DapperWriteDbConnection.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\DapperWriteDbConnection.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\Configuration\\DapperWriteDbConnection.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\DapperWriteDbConnection.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\Configuration\\DapperWriteDbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "DapperReadDbConnection.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\DapperReadDbConnection.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\Configuration\\DapperReadDbConnection.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\DapperReadDbConnection.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\Configuration\\DapperReadDbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:09.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "NpgsqlConnectionProvider.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\NpgsqlConnectionProvider.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\Configuration\\NpgsqlConnectionProvider.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Persistence\\Repositories\\Configuration\\NpgsqlConnectionProvider.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\Configuration\\NpgsqlConnectionProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "20231207093402_part1.cs",
+              "DocumentMoniker": "C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20231207093402_part1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20231207093402_part1.cs",
+              "ToolTip": "C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20231207093402_part1.cs",
+              "RelativeToolTip": "..\\..\\..\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\SkeletonApi.WebAPI\\Migrations\\20231207093402_part1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-22T03:30:34.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "CreateAccountCommand.cs",
+              "DocumentMoniker": "C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\Application\\Features\\Accounts\\Commands\\CreateAccount\\CreateAccountCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\Application\\Features\\Accounts\\Commands\\CreateAccount\\CreateAccountCommand.cs",
+              "ToolTip": "C:\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\Application\\Features\\Accounts\\Commands\\CreateAccount\\CreateAccountCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\AFFFF\\AF-NEW-PLANT\\SkeletonApi\\Application\\Features\\Accounts\\Commands\\CreateAccount\\CreateAccountCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-22T03:30:34.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "IRestApiClientService.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\IRestApiClientService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRestApiClientService.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\IRestApiClientService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRestApiClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "IDapperReadDbConnection.cs",
+              "DocumentMoniker": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\IDapperReadDbConnection.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\Configuration\\IDapperReadDbConnection.cs",
+              "ToolTip": "C:\\HINO\\HINO\\SkeletonApi\\Application\\Interfaces\\Repositories\\Configuration\\IDapperReadDbConnection.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\Configuration\\IDapperReadDbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:39:10.183Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

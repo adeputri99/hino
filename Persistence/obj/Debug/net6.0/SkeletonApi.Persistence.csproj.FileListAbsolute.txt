@@ -1,0 +1,211 @@
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\Users\muham\DevPT2\AHM-NP\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\Project-kantor\Backend\New Plant\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\SkeletonApi\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\SkeletonApi\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\Users\elect\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\back back\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+D:\AF-NEW-PLANT\AF-NEW-PLANT (1)\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.sourcelink.json
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+D:\ELECTRINDO\PROJECT\AF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CopyComplete
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\AFFFF\AF-NEW-PLANT\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.AssemblyReference.cache
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfoInputs.cache
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.AssemblyInfo.cs
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.csproj.CoreCompileInputs.cache
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.sourcelink.json
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\refint\SkeletonApi.Persistence.dll
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.deps.json
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.dll
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Persistence.pdb
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.dll
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.dll
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Application.pdb
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\HINO\HINO\SkeletonApi\Persistence\bin\Debug\net6.0\SkeletonApi.Shared.pdb
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\Skeleton.DA1180E4.Up2Date
+C:\HINO\HINO\SkeletonApi\Persistence\obj\Debug\net6.0\ref\SkeletonApi.Persistence.dll
