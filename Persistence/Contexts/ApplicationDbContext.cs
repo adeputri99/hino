@@ -25,11 +25,12 @@ namespace SkeletonApi.Persistence.Contexts
         public DbSet<Role> Roles => Set<Role>();
         public DbSet<UserRole> UserRoles => Set<UserRole>();
         public DbSet<Permission> Permissions => Set<Permission>();
-        public DbSet<Operator> Operators => Set<Operator>();
-        public DbSet<Zone> Zones => Set<Zone>();
+        public DbSet<Operators> Operators => Set<Operators>();
+        public DbSet<Zones> Zones => Set<Zones>();
         public DbSet<Types> Types => Set<Types>();
         public DbSet<SettingTask> SettingTasks => Set<SettingTask>();
         public DbSet<ActivityUser> ActivityUsers => Set<ActivityUser>();
+        public DbSet<SettingBreak> SettingBreake => Set<SettingBreak>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -72,19 +73,19 @@ namespace SkeletonApi.Persistence.Contexts
                 eb.Property(b => b.PhotoURL).HasColumnName("photo_url").HasColumnType("text");
             });
 
-            modelBuilder.Entity<Operator>()
+            modelBuilder.Entity<Operators>()
               .HasMany(e => e.SettingTasks)
               .WithOne(e => e.Operator)
               .HasForeignKey(e => e.OperatorId)
               .IsRequired(false);
 
-            modelBuilder.Entity<Zone>()
+            modelBuilder.Entity<Zones>()
               .HasMany(e => e.Operators)
               .WithOne(e => e.Zone)
               .HasForeignKey(e => e.ZoneId)
               .IsRequired(false);
 
-            modelBuilder.Entity<Zone>()
+            modelBuilder.Entity<Zones>()
               .HasMany(e => e.Types)
               .WithOne(e => e.Zone)
               .HasForeignKey(e => e.ZoneId)

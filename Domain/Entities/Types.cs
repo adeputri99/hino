@@ -17,6 +17,6 @@ namespace SkeletonApi.Domain.Entities
         public int TaskDuration { get; set; }
         [Column("zone_id")]
         public Guid? ZoneId { get; set; }
-        public Zone Zone { get; set; }
+        public Zones Zone { get; set; }
     }
 }

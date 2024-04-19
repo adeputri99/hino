@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using SkeletonApi.Application.Common.Exceptions;
-using SkeletonApi.Application.Interfaces;
-using SkeletonApi.Domain.ErrorModel;
 using System.Net;
 using System.Text.Json;
 using ILogger = Serilog.ILogger;

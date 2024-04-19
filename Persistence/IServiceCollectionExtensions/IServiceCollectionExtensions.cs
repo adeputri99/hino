@@ -42,6 +42,10 @@ namespace SkeletonApi.Persistence.IServiceCollectionExtensions
                 .AddTransient<IAccountRepository, AccountRepository>()
                 .AddTransient<INotificationRepository, NotificationRepository>()
                 .AddScoped<IDiviceDateRepository, DeviceDataRepository>()
+                .AddScoped<ITypeRepository, TypeRepository>()
+                .AddScoped<IOperatorRepository, OperatorRepository>()
+                .AddScoped<ITaskRepository, TaskRepository>()
+                .AddScoped<IBreakeRepository, BreakeRepository>()
                 .AddTransient<IUserRepository, UserRepository>();
         }
     }

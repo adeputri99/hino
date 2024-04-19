@@ -187,7 +187,55 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.ToTable("ActivityUsers");
                 });
 
-            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operator", b =>
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Breaks", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<string>("BreakeName")
+                        .HasColumnType("text")
+                        .HasColumnName("breake_name");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_at");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("deleted_at");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("deleted_by");
+
+                    b.Property<string>("EndTime")
+                        .HasColumnType("text")
+                        .HasColumnName("end_time");
+
+                    b.Property<string>("StartTime")
+                        .HasColumnType("text")
+                        .HasColumnName("start_time");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("update_at");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("update_by");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SettingBreake");
+                });
+
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operators", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -315,7 +363,6 @@ namespace SkeletonApi.WebAPI.Migrations
                         .HasColumnName("task_name");
 
                     b.Property<string>("TaskNo")
-                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("task_no");
 
@@ -488,7 +535,7 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.ToTable("AspNetUserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("SkeletonApi.Domain.Entities.Zone", b =>
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Zones", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -587,9 +634,9 @@ namespace SkeletonApi.WebAPI.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operator", b =>
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operators", b =>
                 {
-                    b.HasOne("SkeletonApi.Domain.Entities.Zone", "Zone")
+                    b.HasOne("SkeletonApi.Domain.Entities.Zones", "Zone")
                         .WithMany("Operators")
                         .HasForeignKey("ZoneId");
 
@@ -598,7 +645,7 @@ namespace SkeletonApi.WebAPI.Migrations
 
             modelBuilder.Entity("SkeletonApi.Domain.Entities.SettingTask", b =>
                 {
-                    b.HasOne("SkeletonApi.Domain.Entities.Operator", "Operator")
+                    b.HasOne("SkeletonApi.Domain.Entities.Operators", "Operator")
                         .WithMany("SettingTasks")
                         .HasForeignKey("OperatorId");
 
@@ -607,7 +654,7 @@ namespace SkeletonApi.WebAPI.Migrations
 
             modelBuilder.Entity("SkeletonApi.Domain.Entities.Types", b =>
                 {
-                    b.HasOne("SkeletonApi.Domain.Entities.Zone", "Zone")
+                    b.HasOne("SkeletonApi.Domain.Entities.Zones", "Zone")
                         .WithMany("Types")
                         .HasForeignKey("ZoneId");
 
@@ -642,7 +689,7 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operator", b =>
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Operators", b =>
                 {
                     b.Navigation("SettingTasks");
                 });
@@ -659,7 +706,7 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.Navigation("UserRoles");
                 });
 
-            modelBuilder.Entity("SkeletonApi.Domain.Entities.Zone", b =>
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Zones", b =>
                 {
                     b.Navigation("Operators");
 

@@ -10,6 +10,15 @@ using SkeletonApi.Application.Features.ManagementUser.Permissions;
 using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.UpdatePermissions;
 using SkeletonApi.Application.Features.Accounts;
 using SkeletonApi.Application.Features.Accounts.Profiles.Commands.CreateAccount;
+using SkeletonApi.Application.Features.Settings.Type.Commands.CreateType;
+using SkeletonApi.Application.Features.Settings.Type;
+using SkeletonApi.Application.Features.Settings.Operator.Commands.CreateOperator;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using SkeletonApi.Application.Features.Settings.Operator;
+using SkeletonApi.Application.Features.Settings.Task.Commands.CreateTask;
+using SkeletonApi.Application.Features.Settings.Task;
+using SkeletonApi.Application.Features.Settings.Break.Commands.CreateBreak;
+using SkeletonApi.Application.Features.Settings.Break;
 
 namespace SkeletonApi.Application.Common.Mappings
 {
@@ -32,6 +41,18 @@ namespace SkeletonApi.Application.Common.Mappings
 
             CreateMap<CreateAccountRequest, Account>();
             CreateMap<Account, CreateAccountResponseDto>();
+
+            CreateMap<CreateTypeRequest, Types>();
+            CreateMap<Types, CreateTypeResponseDto>();
+            
+            CreateMap<CreateOperatorRequest, Operators>();
+            CreateMap<Operators, CreateOperatorResponseDto>();
+
+            CreateMap<CreateTaskRequest, SettingTask>();
+            CreateMap<SettingTask, CreateTaskResponseDto>();
+
+            CreateMap<CreateBreakRequest, SettingBreak>();
+            CreateMap<SettingBreak, CreateBreakeResponseDto>();
 
         }
 

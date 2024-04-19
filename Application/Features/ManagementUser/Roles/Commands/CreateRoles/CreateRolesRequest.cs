@@ -13,7 +13,6 @@ namespace SkeletonApi.Application.Features.ManagementUser.Roles.Commands.CreateR
     public record CreateRolesRequest : IRequest<Result<CreateRolesResponseDto>>
     {
         [Required(ErrorMessage = "Role Name is required")]
-        [JsonPropertyName("role")]
         public string? Name { get; init; }
     }
 }
