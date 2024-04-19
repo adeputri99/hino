@@ -28,6 +28,7 @@ namespace SkeletonApi.Persistence.Contexts
         public DbSet<Permission> Permissions => Set<Permission>();
         public DbSet<Operator> Operators => Set<Operator>();
         public DbSet<Zone> Zones => Set<Zone>();
+        public DbSet<Repair> Repairs => Set<Repair>();
         public DbSet<Types> Types => Set<Types>();
         public DbSet<DeviceData> DeviceData => Set<DeviceData>();
         public DbSet<SettingTask> SettingTasks => Set<SettingTask>();
