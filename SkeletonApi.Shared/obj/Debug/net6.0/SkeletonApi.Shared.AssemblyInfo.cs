@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkeletonApi.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0dfcc55ef78428e28673728925397cfadfb4ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b46f0f317b83b4d6d38a623f2d23fe8a66e1d2ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkeletonApi.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkeletonApi.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

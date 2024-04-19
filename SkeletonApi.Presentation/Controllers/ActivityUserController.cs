@@ -33,12 +33,12 @@ namespace SkeletonApi.Presentation.Controllers
                 var pg = await _mediator.Send(query);
                 var paginationData = new
                 {
-                    pg.page_number,
-                    pg.total_pages,
-                    pg.page_size,
-                    pg.total_count,
-                    pg.has_previous,
-                    pg.has_next
+                    pg.PageNumber,
+                    pg.TotalPages,
+                    pg.PageSize,
+                    pg.TotalCount,
+                    pg.HasPrevious,
+                    pg.HasNext
                 };
                 Response.Headers.Add("x-pagination", JsonSerializer.Serialize(paginationData));
                 return Ok(pg);
