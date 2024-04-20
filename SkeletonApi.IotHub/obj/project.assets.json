@@ -9939,19 +9939,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elect\\.nuget\\packages\\": {}
+    "C:\\Users\\lucky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+      "projectUniqueName": "C:\\HINNO\\hino\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
       "projectName": "SkeletonApi.IotHub",
-      "projectPath": "D:\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
-      "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
-      "outputPath": "D:\\HINO\\SkeletonApi\\SkeletonApi.IotHub\\obj\\",
+      "projectPath": "C:\\HINNO\\hino\\SkeletonApi.IotHub\\SkeletonApi.IotHub.csproj",
+      "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
+      "outputPath": "C:\\HINNO\\hino\\SkeletonApi.IotHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9965,11 +9965,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\HINO\\SkeletonApi\\Infrastructure\\SkeletonApi.Infrastructure.csproj": {
-              "projectPath": "D:\\HINO\\SkeletonApi\\Infrastructure\\SkeletonApi.Infrastructure.csproj"
+            "C:\\HINNO\\hino\\Infrastructure\\SkeletonApi.Infrastructure.csproj": {
+              "projectPath": "C:\\HINNO\\hino\\Infrastructure\\SkeletonApi.Infrastructure.csproj"
             },
-            "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj": {
-              "projectPath": "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj"
+            "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj": {
+              "projectPath": "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj"
             }
           }
         }
@@ -9980,7 +9980,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10059,7 +10061,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

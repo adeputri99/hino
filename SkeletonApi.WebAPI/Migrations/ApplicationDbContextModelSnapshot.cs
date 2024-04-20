@@ -282,6 +282,65 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.ToTable("Operators");
                 });
 
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Repair", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_at");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("deleted_at");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("deleted_by");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("description");
+
+                    b.Property<DateTime?>("Entry")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("entry");
+
+                    b.Property<DateTime?>("Finish")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("finish");
+
+                    b.Property<string>("FrameNumber")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("frame_number");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("update_at");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("update_by");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Repairs");
+                });
+
             modelBuilder.Entity("SkeletonApi.Domain.Entities.Role", b =>
                 {
                     b.Property<string>("Id")
@@ -379,6 +438,33 @@ namespace SkeletonApi.WebAPI.Migrations
                     b.HasIndex("OperatorId");
 
                     b.ToTable("SettingTasks");
+                });
+
+            modelBuilder.Entity("SkeletonApi.Domain.Entities.Tsdb.DeviceData", b =>
+                {
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("date_time");
+
+                    b.Property<string>("Id")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Quality")
+                        .HasColumnType("boolean")
+                        .HasColumnName("quality");
+
+                    b.Property<long>("Time")
+                        .HasColumnType("bigint")
+                        .HasColumnName("time");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("value");
+
+                    b.ToTable("DeviceData");
                 });
 
             modelBuilder.Entity("SkeletonApi.Domain.Entities.Types", b =>

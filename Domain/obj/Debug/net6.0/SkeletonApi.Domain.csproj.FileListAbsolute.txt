@@ -145,3 +145,16 @@ D:\HINO\SkeletonApi\Domain\obj\Debug\net6.0\SkeletonApi.Domain.dll
 D:\HINO\SkeletonApi\Domain\obj\Debug\net6.0\refint\SkeletonApi.Domain.dll
 D:\HINO\SkeletonApi\Domain\obj\Debug\net6.0\SkeletonApi.Domain.pdb
 D:\HINO\SkeletonApi\Domain\obj\Debug\net6.0\ref\SkeletonApi.Domain.dll
+C:\HINNO\hino\Domain\bin\Debug\net6.0\SkeletonApi.Domain.deps.json
+C:\HINNO\hino\Domain\bin\Debug\net6.0\SkeletonApi.Domain.dll
+C:\HINNO\hino\Domain\bin\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.csproj.AssemblyReference.cache
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.AssemblyInfoInputs.cache
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.AssemblyInfo.cs
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.csproj.CoreCompileInputs.cache
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.sourcelink.json
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.dll
+C:\HINNO\hino\Domain\obj\Debug\net6.0\refint\SkeletonApi.Domain.dll
+C:\HINNO\hino\Domain\obj\Debug\net6.0\SkeletonApi.Domain.pdb
+C:\HINNO\hino\Domain\obj\Debug\net6.0\ref\SkeletonApi.Domain.dll
