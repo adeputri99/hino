@@ -6,6 +6,7 @@
         public string Type { get; set; }
         public int TaskDuration { get; set; }
         public List<SettingOperator> Operator { get; set; }
+        public string Ugjg { get; set; }
     }
 
     public class SettingOperator
