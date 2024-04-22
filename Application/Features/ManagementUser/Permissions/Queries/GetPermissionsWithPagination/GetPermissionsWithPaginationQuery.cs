@@ -8,10 +8,9 @@ using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
 
-
 namespace SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.GetPermissionsWithPagination
 {
-       public record GetPermissionsWithPaginationQuery : IRequest<PaginatedResult<GetPermissionsWithPaginationDto>>
+    public record GetPermissionsWithPaginationQuery : IRequest<PaginatedResult<GetPermissionsWithPaginationDto>>
     {
         public int page_number { get; set; }
         public int page_size { get; set; }
@@ -26,6 +25,7 @@ namespace SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.Ge
             search_term = searchTerm;
         }
     }
+
     internal class GetPermissionsWithPaginationQueryHandler : IRequestHandler<GetPermissionsWithPaginationQuery, PaginatedResult<GetPermissionsWithPaginationDto>>
     {
         private readonly IUnitOfWork _unitOfWork;

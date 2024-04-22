@@ -7,6 +7,7 @@ namespace SkeletonApi.Persistence.Repositories
     public class OperatorRepository : IOperatorRepository
     {
         private readonly IGenericRepository<Operators> _repository;
+
         public OperatorRepository(IGenericRepository<Operators> repository)
         {
             _repository = repository;

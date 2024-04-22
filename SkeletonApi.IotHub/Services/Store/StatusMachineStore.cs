@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.IotHub.DTOs;
 
 namespace SkeletonApi.IotHub.Services.Store

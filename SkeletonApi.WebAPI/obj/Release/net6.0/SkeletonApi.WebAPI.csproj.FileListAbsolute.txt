@@ -113,3 +113,14 @@ C:\AFFFF\AF-NEW-PLANT\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\refint\S
 C:\AFFFF\AF-NEW-PLANT\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.pdb
 C:\AFFFF\AF-NEW-PLANT\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.genruntimeconfig.cache
 C:\AFFFF\AF-NEW-PLANT\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\ref\SkeletonApi.WebAPI.dll
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.csproj.AssemblyReference.cache
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.AssemblyInfoInputs.cache
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.AssemblyInfo.cs
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.csproj.CoreCompileInputs.cache
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.sourcelink.json
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.dll
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\refint\SkeletonApi.WebAPI.dll
+D:\HINO\SkeletonApi\SkeletonApi.WebAPI\obj\Release\net6.0\SkeletonApi.WebAPI.pdb

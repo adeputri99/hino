@@ -8,4 +8,4 @@ namespace SkeletonApi.Application.Features.Settings.Operator.Commands.CreateOper
         public string Name { get; set; }
         public Guid ZoneId { get; set; }
     }
-}   
+}

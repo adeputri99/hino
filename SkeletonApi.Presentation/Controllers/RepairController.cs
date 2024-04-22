@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SkeletonApi.Application.Features.ActivityUsers.Queries.GetActivityUserWithPagination;
 using SkeletonApi.Application.Features.Repairs;
 using SkeletonApi.Application.Features.Repairs.Commands.CreateRepairs;
 using SkeletonApi.Application.Features.Repairs.Commands.DeleteRepairs;
@@ -9,13 +8,7 @@ using SkeletonApi.Application.Features.Repairs.Commands.UpdateRepairs;
 using SkeletonApi.Application.Features.Repairs.Queries.GetRepairWithPagination;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Presentation.Controllers
 {
@@ -24,6 +17,7 @@ namespace SkeletonApi.Presentation.Controllers
     {
         private readonly IMediator _mediator;
         private ILogger _logger;
+
         public RepairController(IMediator mediator, ILogger<ActivityUserController> logger)
         {
             _mediator = mediator;
@@ -79,6 +73,5 @@ namespace SkeletonApi.Presentation.Controllers
             }
             return await _mediator.Send(command);
         }
-
     }
 }

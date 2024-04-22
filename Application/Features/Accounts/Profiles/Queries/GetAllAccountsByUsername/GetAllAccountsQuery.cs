@@ -6,7 +6,6 @@ using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
 
-
 namespace SkeletonApi.Application.Features.Accounts.Profiles.Queries.GetAllAccountsByUsername
 {
     public record GetAllAccountsQuery : IRequest<Result<List<GetAllAccountsDto>>>
@@ -43,7 +42,6 @@ namespace SkeletonApi.Application.Features.Accounts.Profiles.Queries.GetAllAccou
             .ToListAsync(cancellationToken);
 
             return await Result<List<GetAllAccountsDto>>.SuccessAsync(accounts, "Successfully fetch data");
-
         }
     }
 }

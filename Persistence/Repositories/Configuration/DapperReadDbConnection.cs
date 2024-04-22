@@ -4,7 +4,6 @@ using Npgsql;
 using SkeletonApi.Application.Interfaces.Repositories;
 using System.Data;
 
-
 namespace SkeletonApi.Persistence.Repositories.Configuration
 {
     public class DapperReadDbConnection : IDapperReadDbConnection, IDisposable

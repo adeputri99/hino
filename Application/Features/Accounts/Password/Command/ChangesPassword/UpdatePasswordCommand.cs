@@ -6,12 +6,11 @@ using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
 using System.Text.Json.Serialization;
 
-
 namespace SkeletonApi.Application.Features.Accounts.Password.Command.ChangesPassword
 {
     public record UpdatePasswordCommand : IRequest<Result<string>>
     {
-        public string Username { get; set; }    
+        public string Username { get; set; }
         [JsonPropertyName("current_password")]
         public string CurrentPassword { get; set; }
         [JsonPropertyName("new_password")]
@@ -19,6 +18,7 @@ namespace SkeletonApi.Application.Features.Accounts.Password.Command.ChangesPass
         [JsonPropertyName("repeat_password")]
         public string RepeatPassword { get; set; }
     }
+
     internal class UpdatePasswordCommandHandler : IRequestHandler<UpdatePasswordCommand, Result<string>>
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -42,7 +42,7 @@ namespace SkeletonApi.Application.Features.Accounts.Password.Command.ChangesPass
             }
             else
             {
-                return await Result<string>.FailureAsync(cekUser.UserName,"User Not Found.");
+                return await Result<string>.FailureAsync(cekUser.UserName, "User Not Found.");
             }
         }
     }

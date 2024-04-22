@@ -1,21 +1,15 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.CreateRoles;
-using SkeletonApi.Application.Features.ManagementUser.Roles;
-using SkeletonApi.Shared;
-
 using SkeletonApi.Application.Features.ManagementUser.Permissions;
 using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.CreatePermissions;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Queries.GetRoleWithPagination;
-using SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.GetRoleWithPagination;
-using SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.GetPermissionsWithPagination;
-using System.Text.Json;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.DeleteRoles;
 using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.DeletePermissions;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.UpdateRoles;
-using SkeletonApi.Domain.Entities;
 using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.UpdatePermissions;
+using SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.GetPermissionsWithPagination;
+using SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.GetRoleWithPagination;
+using SkeletonApi.Domain.Entities;
+using SkeletonApi.Shared;
+using System.Text.Json;
 
 namespace SkeletonApi.Presentation.Controllers
 {
@@ -24,6 +18,7 @@ namespace SkeletonApi.Presentation.Controllers
     {
         private readonly IMediator _mediator;
         private ILogger _logger;
+
         public PermissionsController(IMediator mediator, ILogger<PermissionsController> logger)
         {
             _mediator = mediator;
@@ -51,6 +46,7 @@ namespace SkeletonApi.Presentation.Controllers
             }
             return await _mediator.Send(command);
         }
+
         [HttpGet("get-list-permission")]
         public async Task<ActionResult<PaginatedResult<GetPermissionsWithPaginationDto>>> GetUserWithPagination([FromQuery] GetPermissionsWithPaginationQuery query)
         {
@@ -78,6 +74,5 @@ namespace SkeletonApi.Presentation.Controllers
             var errorMessages = result.Errors.Select(x => x.ErrorMessage).ToList();
             return BadRequest(errorMessages);
         }
-
     }
 }

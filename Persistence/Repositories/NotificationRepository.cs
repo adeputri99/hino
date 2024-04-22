@@ -1,30 +1,23 @@
 ﻿using Dapper;
-using SkeletonApi.Application.DTOs.RestApiData;
-using SkeletonApi.Application.Interfaces;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
-using SkeletonApi.Domain.Entities.Tsdb;
 using SkeletonApi.Persistence.Interfaces;
 using SkeletonApi.Persistence.Repositories.Dapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Persistence.Repositories
 {
     public class NotificationRepository : INotificationRepository
     {
-       
         private readonly IDapperCreateUnitOfWork _dapperUwow;
         private readonly IGetConnection _getConnection;
+
         public NotificationRepository(DapperUnitOfWorkContext dapperUwow)
         {
             _dapperUwow = dapperUwow;
             _getConnection = dapperUwow;
         }
+
         public async Task Creates(IEnumerable<Notifications> mqttRawValues)
         {
             try
@@ -45,12 +38,10 @@ namespace SkeletonApi.Persistence.Repositories
 
                         string query = @"insert into ""Notifications"" (id,machine_name,message,status,created_at,date_time) values (@Id,@MachineName,@Message,@Status,@CreatedAt,@DateTime)";
                         await connection.ExecuteAsync(query, notification);
-          
                     }
                     await uwow.CommitAsync();
                     uwow.Dispose();
                 }
-
             }
             catch (Exception ex)
             {

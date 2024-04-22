@@ -5,10 +5,7 @@ using MQTTnet.Extensions.ManagedClient;
 using SkeletonApi.IotHub.Hubs;
 using SkeletonApi.IotHub.Model;
 using SkeletonApi.IotHub.Services.Handler;
-using System;
 using System.Text.Json;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.IotHub.Services
 {
@@ -18,6 +15,7 @@ namespace SkeletonApi.IotHub.Services
         private readonly ManagedMqttClientOptions _options;
         private readonly IHubContext<BrokerHub, IBrokerEvent> _hubContext;
         private readonly IIoTHubEventHandler<MqttRawDataEncapsulation> _mqttStoreEventHandler;
+
         public MqttClientService(ManagedMqttClientOptions options, IHubContext<BrokerHub, IBrokerEvent> hubContext, IIoTHubEventHandler<MqttRawDataEncapsulation> mqttStoreEventHandler)
         {
             _hubContext = hubContext;

@@ -43,7 +43,7 @@ namespace SkeletonApi.Application.Features.Settings.Type.Queries.GetTypeWithPagi
             .Select(o => new GetTypeWithPaginationDto
             {
                 Id = o.Id,
-                Name = o.Name,
+                Name = o.TypeName,
                 TaskDuration = o.TaskDuration,
                 Zone = o.Zone.Name
             })

@@ -3,7 +3,6 @@ using SkeletonApi.Shared;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-
 namespace SkeletonApi.Application.Features.Users.Login.Commands
 {
     public sealed record UserLoginRequest : IRequest<Result<TokenDto>>

@@ -5,7 +5,6 @@ using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
 
-
 namespace SkeletonApi.Application.Features.Accounts.Profiles.Commands.DeleteAccount
 {
     public record DeleteAccountCommand : IRequest<Result<Guid>>, IMapFrom<Account>
@@ -14,7 +13,6 @@ namespace SkeletonApi.Application.Features.Accounts.Profiles.Commands.DeleteAcco
 
         public DeleteAccountCommand()
         {
-
         }
 
         public DeleteAccountCommand(Guid id)

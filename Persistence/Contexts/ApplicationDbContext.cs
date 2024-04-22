@@ -14,7 +14,7 @@ namespace SkeletonApi.Persistence.Contexts
     {
         private readonly IDomainEventDispatcher _dispatcher;
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options , IDomainEventDispatcher dispatcher = null)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IDomainEventDispatcher dispatcher = null)
             : base(options)
         {
             _dispatcher = dispatcher;
@@ -31,10 +31,9 @@ namespace SkeletonApi.Persistence.Contexts
         public DbSet<SettingTask> SettingTasks => Set<SettingTask>();
         public DbSet<ActivityUser> ActivityUsers => Set<ActivityUser>();
         public DbSet<SettingBreak> SettingBreake => Set<SettingBreak>();
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<UserRole>(userRole =>
@@ -50,12 +49,11 @@ namespace SkeletonApi.Persistence.Contexts
                     .HasForeignKey(ur => ur.UserId);
             });
 
-
-                modelBuilder.Entity<Role>()
-               .HasMany(e => e.Permissions)
-               .WithOne(e => e.Role)
-               .HasForeignKey(e => e.RoleId)
-               .IsRequired(false);
+            modelBuilder.Entity<Role>()
+           .HasMany(e => e.Permissions)
+           .WithOne(e => e.Role)
+           .HasForeignKey(e => e.RoleId)
+           .IsRequired(false);
 
             modelBuilder.Entity<ActivityUser>(
             eb =>
@@ -90,7 +88,6 @@ namespace SkeletonApi.Persistence.Contexts
               .WithOne(e => e.Zone)
               .HasForeignKey(e => e.ZoneId)
               .IsRequired(false);
-
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())

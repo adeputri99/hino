@@ -32,7 +32,7 @@ namespace SkeletonApi.Application.Features.Settings.Type.Queries.GetTypeByZone
         public async Task<Result<IEnumerable<GetTypeByZoneDto>>> Handle(GetTypeByZoneQuery request, CancellationToken cancellationToken)
         {
             var type = await _unitOfWork.Repository<Types>().FindByCondition(o => o.ZoneId == request.Id)
-                          .Select(x => new GetTypeByZoneDto { Name = x.Name })
+                          .Select(x => new GetTypeByZoneDto { Name = x.TypeName })
                           .ProjectTo<GetTypeByZoneDto>(_mapper.ConfigurationProvider).ToListAsync(cancellationToken);
             return await Result<IEnumerable<GetTypeByZoneDto>>.SuccessAsync(type, "Success");
         }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SkeletonApi.Shared.Constants
+﻿namespace SkeletonApi.Shared.Constants
 {
     public static class Permissions
     {
@@ -18,6 +12,7 @@ namespace SkeletonApi.Shared.Constants
                 $"Permissions.{module}.Delete",
             };
         }
+
         public static List<string> GeneratePermissionsForPm(string Pm)
         {
             return new List<string>()
@@ -44,7 +39,6 @@ namespace SkeletonApi.Shared.Constants
             public const string Edit = "Permissions.Users.Edit";
             public const string Delete = "Permissions.Users.Delete";
         }
-
     }
 
     public class CustomClaimTypes

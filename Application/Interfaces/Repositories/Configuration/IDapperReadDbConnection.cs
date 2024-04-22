@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace SkeletonApi.Application.Interfaces.Repositories
 {
@@ -19,5 +14,4 @@ namespace SkeletonApi.Application.Interfaces.Repositories
 
         Task<T> QuerySingleAsync<T>(string sql, object? param = null, IDbTransaction? transaction = null, CancellationToken cancellationToken = default);
     }
-    
 }

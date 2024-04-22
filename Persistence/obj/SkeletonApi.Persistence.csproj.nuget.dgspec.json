@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj": {}
+    "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\HINNO\\hino\\Application\\SkeletonApi.Application.csproj": {
+    "D:\\HINO\\SkeletonApi\\Application\\SkeletonApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HINNO\\hino\\Application\\SkeletonApi.Application.csproj",
+        "projectUniqueName": "D:\\HINO\\SkeletonApi\\Application\\SkeletonApi.Application.csproj",
         "projectName": "SkeletonApi.Application",
-        "projectPath": "C:\\HINNO\\hino\\Application\\SkeletonApi.Application.csproj",
-        "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-        "outputPath": "C:\\HINNO\\hino\\Application\\obj\\",
+        "projectPath": "D:\\HINO\\SkeletonApi\\Application\\SkeletonApi.Application.csproj",
+        "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
+        "outputPath": "D:\\HINO\\SkeletonApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj": {
-                "projectPath": "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj"
+              "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj": {
+                "projectPath": "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj"
               },
-              "C:\\HINNO\\hino\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj": {
-                "projectPath": "C:\\HINNO\\hino\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj"
+              "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj": {
+                "projectPath": "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj"
               }
             }
           }
@@ -43,9 +43,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -105,21 +103,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj": {
+    "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj",
+        "projectUniqueName": "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj",
         "projectName": "SkeletonApi.Domain",
-        "projectPath": "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj",
-        "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-        "outputPath": "C:\\HINNO\\hino\\Domain\\obj\\",
+        "projectPath": "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
+        "outputPath": "D:\\HINO\\SkeletonApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,9 +139,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -183,21 +179,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj": {
+    "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj",
+        "projectUniqueName": "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj",
         "projectName": "SkeletonApi.Persistence",
-        "projectPath": "C:\\HINNO\\hino\\Persistence\\SkeletonApi.Persistence.csproj",
-        "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-        "outputPath": "C:\\HINNO\\hino\\Persistence\\obj\\",
+        "projectPath": "D:\\HINO\\SkeletonApi\\Persistence\\SkeletonApi.Persistence.csproj",
+        "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
+        "outputPath": "D:\\HINO\\SkeletonApi\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -211,11 +207,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\HINNO\\hino\\Application\\SkeletonApi.Application.csproj": {
-                "projectPath": "C:\\HINNO\\hino\\Application\\SkeletonApi.Application.csproj"
+              "D:\\HINO\\SkeletonApi\\Application\\SkeletonApi.Application.csproj": {
+                "projectPath": "D:\\HINO\\SkeletonApi\\Application\\SkeletonApi.Application.csproj"
               },
-              "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj": {
-                "projectPath": "C:\\HINNO\\hino\\Domain\\SkeletonApi.Domain.csproj"
+              "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj": {
+                "projectPath": "D:\\HINO\\SkeletonApi\\Domain\\SkeletonApi.Domain.csproj"
               }
             }
           }
@@ -226,9 +222,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -272,21 +266,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\HINNO\\hino\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj": {
+    "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HINNO\\hino\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj",
+        "projectUniqueName": "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj",
         "projectName": "SkeletonApi.Shared",
-        "projectPath": "C:\\HINNO\\hino\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj",
-        "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-        "outputPath": "C:\\HINNO\\hino\\SkeletonApi.Shared\\obj\\",
+        "projectPath": "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\SkeletonApi.Shared.csproj",
+        "packagesPath": "C:\\Users\\elect\\.nuget\\packages\\",
+        "outputPath": "D:\\HINO\\SkeletonApi\\SkeletonApi.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -308,9 +302,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -332,7 +324,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

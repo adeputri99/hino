@@ -2,7 +2,6 @@
 using SkeletonApi.Persistence.Contexts;
 using System.Data;
 
-
 namespace SkeletonApi.Persistence.Repositories.Configuration
 {
     public class DapperWriteDbConnection : IDapperWriteDbConnection

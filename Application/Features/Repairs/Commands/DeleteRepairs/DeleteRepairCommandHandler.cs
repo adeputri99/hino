@@ -3,11 +3,6 @@ using MediatR;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Application.Features.Repairs.Commands.DeleteRepairs
 {
@@ -21,6 +16,7 @@ namespace SkeletonApi.Application.Features.Repairs.Commands.DeleteRepairs
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
         public async Task<Result<Guid>> Handle(DeleteRepairRequest request, CancellationToken cancellationToken)
         {
             var Repair = await _unitOfWork.Repository<Repair>().GetByIdAsync(request.Id);

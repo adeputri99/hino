@@ -1,5 +1,4 @@
-﻿using SkeletonApi.Application.Features.Settings.Type.Queries.GetTypeByZone;
-using SkeletonApi.Domain.Entities;
+﻿using SkeletonApi.Domain.Entities;
 
 namespace SkeletonApi.Application.Interfaces.Repositories
 {

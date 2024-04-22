@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.DeleteRoles;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
@@ -15,7 +13,6 @@ namespace SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.D
         private readonly IUnitOfWork _unitOfWork;
         private readonly RoleManager<Role> _roleManager;
 
-
         public DeletePermissionsCommandHandler(IMapper mapper, IUnitOfWork unitOfWork, RoleManager<Role> roleManager)
         {
             _mapper = mapper;
@@ -25,7 +22,6 @@ namespace SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.D
 
         public async Task<Result<string>> Handle(DeletePermissionsRequest request, CancellationToken cancellationToken)
         {
-           
             var validateRole = await _roleManager.FindByIdAsync(request.Id.ToString());
             if (validateRole == null)
             {

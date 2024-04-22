@@ -1,8 +1,8 @@
-﻿using MediatR;
-using SkeletonApi.Shared;
-using AutoMapper;
+﻿using AutoMapper;
+using MediatR;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
+using SkeletonApi.Shared;
 
 namespace SkeletonApi.Application.Features.Accounts.Profiles.Commands.CreateAccount
 {
@@ -56,7 +56,6 @@ namespace SkeletonApi.Application.Features.Accounts.Profiles.Commands.CreateAcco
                 cek.UpdatedAt = DateTime.UtcNow;
                 await _unitOfWork.Repository<Account>().UpdateAsync(cek);
                 await _unitOfWork.Save(cancellationToken);
-
             }
             else
             {

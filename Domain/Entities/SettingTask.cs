@@ -5,6 +5,18 @@ namespace SkeletonApi.Domain.Entities
 {
     public class SettingTask : BaseAuditableEntity
     {
+        [NotMapped]
+        public string Zona { get; set; }
+
+        [NotMapped]
+        public string Type { get; set; }
+
+        [NotMapped]
+        public int TaskDurations { get; set; }
+
+        [NotMapped]
+        public List<SettingOperators> Operators { get; set; }
+
         [Column("task_name")]
         public string TaskName { get; set; }
 
@@ -18,5 +30,13 @@ namespace SkeletonApi.Domain.Entities
         public string? TaskNo { get; set; }
 
         public Operators Operator { get; set; }
+    }
+
+    [NotMapped]
+    public class SettingOperators
+    {
+        public string OperatorNumber { get; set; }
+        public string TaskNumber { get; set; }
+        public string TaskName { get; set; }
     }
 }

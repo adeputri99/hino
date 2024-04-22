@@ -1,24 +1,23 @@
 ﻿using AutoMapper;
-using System.Reflection;
-using SkeletonApi.Domain.Entities;
-using SkeletonApi.Application.Features.Users;
-using SkeletonApi.Application.Features.ManagementUser.Users.Commands.CreateUser;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.CreateRoles;
-using SkeletonApi.Application.Features.ManagementUser.Roles;
-using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.CreatePermissions;
-using SkeletonApi.Application.Features.ManagementUser.Permissions;
-using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.UpdatePermissions;
 using SkeletonApi.Application.Features.Accounts;
 using SkeletonApi.Application.Features.Accounts.Profiles.Commands.CreateAccount;
-using SkeletonApi.Application.Features.Settings.Type.Commands.CreateType;
-using SkeletonApi.Application.Features.Settings.Type;
-using SkeletonApi.Application.Features.Settings.Operator.Commands.CreateOperator;
-using Microsoft.EntityFrameworkCore.Migrations.Operations;
-using SkeletonApi.Application.Features.Settings.Operator;
-using SkeletonApi.Application.Features.Settings.Task.Commands.CreateTask;
-using SkeletonApi.Application.Features.Settings.Task;
-using SkeletonApi.Application.Features.Settings.Break.Commands.CreateBreak;
+using SkeletonApi.Application.Features.ManagementUser.Permissions;
+using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.CreatePermissions;
+using SkeletonApi.Application.Features.ManagementUser.Permissions.Commands.UpdatePermissions;
+using SkeletonApi.Application.Features.ManagementUser.Roles;
+using SkeletonApi.Application.Features.ManagementUser.Roles.Commands.CreateRoles;
+using SkeletonApi.Application.Features.ManagementUser.Users.Commands.CreateUser;
 using SkeletonApi.Application.Features.Settings.Break;
+using SkeletonApi.Application.Features.Settings.Break.Commands.CreateBreak;
+using SkeletonApi.Application.Features.Settings.Operator;
+using SkeletonApi.Application.Features.Settings.Operator.Commands.CreateOperator;
+using SkeletonApi.Application.Features.Settings.Task;
+using SkeletonApi.Application.Features.Settings.Task.Commands.CreateTask;
+using SkeletonApi.Application.Features.Settings.Type;
+using SkeletonApi.Application.Features.Settings.Type.Commands.CreateType;
+using SkeletonApi.Application.Features.Users;
+using SkeletonApi.Domain.Entities;
+using System.Reflection;
 
 namespace SkeletonApi.Application.Common.Mappings
 {
@@ -27,7 +26,7 @@ namespace SkeletonApi.Application.Common.Mappings
         public MappingProfile()
         {
             ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
-            
+
             CreateMap<CreateUserRequest, User>();
             CreateMap<User, CreateUserResponseDto>();
 
@@ -44,7 +43,7 @@ namespace SkeletonApi.Application.Common.Mappings
 
             CreateMap<CreateTypeRequest, Types>();
             CreateMap<Types, CreateTypeResponseDto>();
-            
+
             CreateMap<CreateOperatorRequest, Operators>();
             CreateMap<Operators, CreateOperatorResponseDto>();
 
@@ -53,7 +52,6 @@ namespace SkeletonApi.Application.Common.Mappings
 
             CreateMap<CreateBreakRequest, SettingBreak>();
             CreateMap<SettingBreak, CreateBreakeResponseDto>();
-
         }
 
         private void ApplyMappingsFromAssembly(Assembly assembly)

@@ -23,7 +23,7 @@ namespace SkeletonApi.Application.Features.Settings.Type.Commands.UpdateType
             Console.WriteLine(type);
             if (type != null)
             {
-                type.Name = request.Name;
+                type.TypeName = request.Name;
                 type.ZoneId = request.ZonaId;
                 type.TaskDuration = request.TaskDuration;
                 type.UpdatedAt = DateTime.UtcNow;

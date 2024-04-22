@@ -18,6 +18,7 @@ namespace SkeletonApi.Presentation.Controllers
     {
         private readonly IMediator _mediator;
         private ILogger _logger;
+
         public TaskController(IMediator mediator, ILogger<TaskController> logger)
         {
             _mediator = mediator;
@@ -39,7 +40,7 @@ namespace SkeletonApi.Presentation.Controllers
         [HttpPut("{id:Guid}")]
         public async Task<ActionResult<Result<SettingTask>>> UpdateTask(Guid id, UpdateTaskRequest command)
         {
-            if(id != command.Id)
+            if (id != command.Id)
             {
                 return BadRequest();
             }

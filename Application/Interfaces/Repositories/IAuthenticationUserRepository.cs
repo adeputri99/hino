@@ -2,7 +2,6 @@
 using SkeletonApi.Application.Features.Users;
 using SkeletonApi.Application.Features.Users.Login.Commands;
 
-
 namespace SkeletonApi.Application.Interfaces.Repositories
 {
     public interface IAuthenticationUserRepository

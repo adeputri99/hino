@@ -7,16 +7,20 @@ namespace SkeletonApi.Application.Features.ManagementUser.Permissions.Queries.Ge
     {
         [JsonPropertyName("id")]
         public string Id { get; set; }
+
         [JsonPropertyName("user_name")]
         public string UserName { get; set; }
+
         [JsonPropertyName("email")]
         public string Email { get; set; }
+
         [JsonPropertyName("role")]
         public string RoleName { get; set; }
+
         [JsonPropertyName("permissions")]
         public string Permissions { get; set; }
+
         [JsonPropertyName("last_created")]
         public DateTime UpdateAt { get; set; }
-
     }
 }

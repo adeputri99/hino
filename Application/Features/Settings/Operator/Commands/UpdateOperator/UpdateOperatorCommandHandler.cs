@@ -11,6 +11,7 @@ namespace SkeletonApi.Application.Features.Settings.Operator.Commands.UpdateOper
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IOperatorRepository _operatorRepository;
+
         public UpdateOperatorCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, IOperatorRepository operatorRepository)
         {
             _unitOfWork = unitOfWork;
@@ -21,12 +22,7 @@ namespace SkeletonApi.Application.Features.Settings.Operator.Commands.UpdateOper
         public async Task<Result<Operators>> Handle(UpdateOperatorRequest request, CancellationToken cancellationToken)
         {
             var operatorUpdate = await _unitOfWork.Repository<Operators>().GetByIdAsync(request.Id);
-            var validateData = await _operatorRepository.ValidateData(operatorUpdate);
 
-            if (validateData != true)
-            {
-                return await Result<Operators>.FailureAsync(operatorUpdate,"Data already exist");
-            }
             if (operatorUpdate != null)
             {
                 operatorUpdate.Name = request.Name;

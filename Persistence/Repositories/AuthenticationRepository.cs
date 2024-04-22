@@ -18,7 +18,6 @@ namespace SkeletonApi.Persistence.Repositories
 {
     public class AuthenticationRepository : IAuthenticationUserRepository
     {
-
         private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<Role> _roleManager;
@@ -29,14 +28,13 @@ namespace SkeletonApi.Persistence.Repositories
 
         public AuthenticationRepository(IMapper mapper, UserManager<User> userManager, RoleManager<Role> roleManager, IOptions<JwtConfiguration> configuration)
         {
-
             _mapper = mapper;
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
             _jwtConfiguration = _configuration.Value;
-
         }
+
         public async Task<TokenDto> CreateToken(bool populateExp)
         {
             var signingCredentials = GetSigningCredentials();
@@ -146,7 +144,6 @@ namespace SkeletonApi.Persistence.Repositories
                 await _userManager.AddToRolesAsync(user, userForRegistration.Roles);
             return result;
         }
-
 
         public async Task<bool> ValidateUser(UserLoginRequest userForAuth)
         {

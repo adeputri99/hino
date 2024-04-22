@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Domain.Entities.ConfigurationModels;
 using SkeletonApi.Persistence.Contexts;
-using System.Data;
-using System.Text;
 
 namespace SkeletonApi.WebAPI.Extensions
 {
@@ -22,7 +19,6 @@ namespace SkeletonApi.WebAPI.Extensions
                 o.Password.RequireNonAlphanumeric = false;
                 o.Password.RequiredLength = 10;
                 o.User.RequireUniqueEmail = true;
-
             })
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
@@ -43,10 +39,10 @@ namespace SkeletonApi.WebAPI.Extensions
             {
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
-                   
                 };
             });
         }
+
         public static void AddJwtConfiguration(this IServiceCollection services, IConfiguration configuration) =>
             services.Configure<JwtConfiguration>(configuration.GetSection("JwtSettings"));
     }

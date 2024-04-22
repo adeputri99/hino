@@ -1,15 +1,9 @@
 ﻿using AutoMapper;
-using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.ExtendedProperties;
 using SkeletonApi.Application.Interfaces.Repositories;
-using SkeletonApi.Application.Interfaces.Repositories.Configuration.Dapper;
 using SkeletonApi.Domain.Entities;
-using SkeletonApi.Domain.Entities.Tsdb;
-using SkeletonApi.IotHub.DTOs;
 using SkeletonApi.IotHub.Model;
 using SkeletonApi.IotHub.Services.Handler;
 using SkeletonApi.IotHub.Services.Store;
-using System.Reactive;
 
 namespace SkeletonApi.IotHub.Services
 {
@@ -53,7 +47,6 @@ namespace SkeletonApi.IotHub.Services
 
         private async Task PersistNotificationToDBAsync(MqttRawData value)
         {
-
             if (value.Values is not null)
             {
                 try

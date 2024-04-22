@@ -8,13 +8,14 @@ namespace SkeletonApi.Application.Features.Settings.Operator.Commands.DeleteOper
     public class DeleteOperatorRequest : IRequest<Result<Guid>>, IMapFrom<Operators>
     {
         public Guid Id { get; set; }
+
         public DeleteOperatorRequest(Guid id)
         {
             Id = id;
         }
+
         public DeleteOperatorRequest()
         {
-            
         }
     }
 }

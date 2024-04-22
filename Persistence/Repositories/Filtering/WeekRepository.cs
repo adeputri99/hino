@@ -2,25 +2,21 @@
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Application.Interfaces.Repositories.Filtering;
 using SkeletonApi.Domain.Entities.Tsdb;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Persistence.Repositories.Filtering
 {
     public class WeekRepository : IWeekRepository
     {
         private readonly IDapperReadDbConnection _dapperReadDbConnection;
+
         public WeekRepository(IDapperReadDbConnection dapperReadDbConnection)
         {
             _dapperReadDbConnection = dapperReadDbConnection;
         }
+
         public async Task<OkOrNgDto> GetOkOrNgWeek(string view, DateTime? startTime, DateTime? endTime)
         {
-
             var data = new OkOrNgDto();
             var okOrNG = await _dapperReadDbConnection.QueryAsync<DeviceData>
                 ($@"SELECT * FROM {view} WHERE id like '%K6%'

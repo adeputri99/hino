@@ -2,7 +2,7 @@
 
 namespace SkeletonApi.Application.Features.Settings.Task.Queries.GetTaskWithPagination
 {
-    public class GetTaskWithPaginationDto : IMapFrom<GetTaskWithPaginationDto>  
+    public class GetTaskWithPaginationDto : IMapFrom<GetTaskWithPaginationDto>
     {
         public Guid Id { get; set; }
         public string? Zone { get; set; }

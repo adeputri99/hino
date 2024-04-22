@@ -1,14 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using MQTTnet.Client;
+﻿using MQTTnet.Client;
 using MQTTnet.Extensions.ManagedClient;
 using SkeletonApi.IotHub.Commons;
-using SkeletonApi.IotHub.Configurations;
 using SkeletonApi.IotHub.Options;
 using SkeletonApi.IotHub.Services;
 using SkeletonApi.IotHub.Settings;
-using System;
 
 namespace SkeletonApi.IotHub.Configurations
 {

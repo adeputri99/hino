@@ -1,16 +1,16 @@
-using SkeletonApi.IotHub.Configurations;
-using SkeletonApi.Persistence.IServiceCollectionExtensions;
-using SkeletonApi.IotHub.Services;
-using SkeletonApi.IotHub.Model;
-using SkeletonApi.IotHub.Services.Handler;
-using System.Reflection;
-using SkeletonApi.IotHub.Services.Store;
-using SkeletonApi.IotHub.Hubs;
-using SkeletonApi.IotHub.Extensions;
-using SkeletonApi.Application.Interfaces.Repositories;
-using SkeletonApi.Persistence.Repositories.Configuration;
 using SkeletonApi.Application.Interfaces;
+using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Infrastructure.Services;
+using SkeletonApi.IotHub.Configurations;
+using SkeletonApi.IotHub.Extensions;
+using SkeletonApi.IotHub.Hubs;
+using SkeletonApi.IotHub.Model;
+using SkeletonApi.IotHub.Services;
+using SkeletonApi.IotHub.Services.Handler;
+using SkeletonApi.IotHub.Services.Store;
+using SkeletonApi.Persistence.IServiceCollectionExtensions;
+using SkeletonApi.Persistence.Repositories.Configuration;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,12 +25,14 @@ builder.Services.AddScoped<IDapperReadDbConnection, DapperReadDbConnection>();
 builder.Services.AddScoped<IDapperWriteDbConnection, DapperWriteDbConnection>();
 
 builder.Services.AddSingleton<StatusMachineStore>();
+builder.Services.AddSingleton<TaskStore>();
 builder.Services.AddSingleton<NotificationStore>();
 builder.Services.AddHttpClient<IRestApiClientService, RestApiClientService>();
 
-builder.Services.AddSingleton<IIoTHubEventHandler<MqttRawDataEncapsulation>,IotHubMqttEventHandler>();
+builder.Services.AddSingleton<IIoTHubEventHandler<MqttRawDataEncapsulation>, IotHubMqttEventHandler>();
 builder.Services.AddSingleton<IotHubMachineHealthEventHandler, IotHubMachineHealthEventHandler>();
 builder.Services.AddSingleton<IotHubNotificationEventHandler, IotHubNotificationEventHandler>();
+builder.Services.AddSingleton<IoTHubTaskEventHandler, IoTHubTaskEventHandler>();
 
 builder.Services.AddHostedService<PersistedConsumer>();
 builder.Services.AddHostedService<NotificationConsumer>();
@@ -50,7 +52,6 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-
 app.UseCors("CorsPolicy");
 app.UseRouting();
 app.UseWebSockets();
@@ -61,15 +62,14 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapHub<BrokerHub>("/iothub");
     endpoints.MapHub<MachineHealthHub>("/machine-health-hub");
+    endpoints.MapHub<TaskHub>("/task-hub");
     endpoints.MapHub<NotificationHub>("/notification-hub");
-    
 });
 
 app.MapGet("api/machine-health-subject", (StatusMachineStore machineStore) =>
 {
     var data = machineStore.GetAllMachine();
     return data;
-
 });
 
 app.Run();

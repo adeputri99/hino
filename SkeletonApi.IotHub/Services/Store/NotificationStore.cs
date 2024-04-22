@@ -24,9 +24,9 @@ namespace SkeletonApi.IotHub.Services.Store
             using (var scope = _serviceScopeFactory.CreateScope())
             {
                 var scoped = scope.ServiceProvider.GetRequiredService<INotificationRepository>();
-               // var machines = scoped.GetAllSettingAsync().Result;
-        
-               // _Setting = _mapper.Map<IEnumerable<NotificationDto>>(machines);
+                // var machines = scoped.GetAllSettingAsync().Result;
+
+                // _Setting = _mapper.Map<IEnumerable<NotificationDto>>(machines);
             }
             return Task.CompletedTask;
         }

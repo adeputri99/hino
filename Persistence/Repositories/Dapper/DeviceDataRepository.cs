@@ -1,15 +1,9 @@
 ﻿using Dapper;
-using SkeletonApi.Application.DTOs.RestApiData;
 using SkeletonApi.Application.Interfaces;
 using SkeletonApi.Application.Interfaces.Repositories.Configuration.Dapper;
 using SkeletonApi.Domain.Entities.Tsdb;
 using SkeletonApi.Persistence.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Persistence.Repositories.Dapper
 {
@@ -19,7 +13,7 @@ namespace SkeletonApi.Persistence.Repositories.Dapper
         private readonly IGetConnection _getConnection;
         private readonly IRestApiClientService _restApiClient;
 
-        public DeviceDataRepository (DapperUnitOfWorkContext dapperUwow, IRestApiClientService restClient)
+        public DeviceDataRepository(DapperUnitOfWorkContext dapperUwow, IRestApiClientService restClient)
         {
             _dapperUwow = dapperUwow;
             _getConnection = dapperUwow;
@@ -42,9 +36,9 @@ namespace SkeletonApi.Persistence.Repositories.Dapper
                         deviceData.Quality = true;
                         deviceData.Time = row.Time;
                         deviceData.DateTime = row.Datetime;
-                       
+
                         string query = @"insert into ""DeviceData"" (id,value,quality,time,date_time) values (@Id,@Value,@Quality,@Time,@DateTime)";
-                        await connection.ExecuteAsync(query, deviceData);                      
+                        await connection.ExecuteAsync(query, deviceData);
                     }
                     await uwow.CommitAsync();
                     uwow.Dispose();
@@ -57,6 +51,5 @@ namespace SkeletonApi.Persistence.Repositories.Dapper
 
             await Task.CompletedTask;
         }
-
     }
 }

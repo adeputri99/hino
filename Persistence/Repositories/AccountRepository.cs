@@ -23,6 +23,5 @@ namespace SkeletonApi.Persistence.Repositories
             }
             return true;
         }
-
     }
 }

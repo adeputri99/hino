@@ -7,7 +7,6 @@ using SkeletonApi.Application.Features.Settings.Operator.Commands.DeleteOperator
 using SkeletonApi.Application.Features.Settings.Operator.Commands.UpdateOperator;
 using SkeletonApi.Application.Features.Settings.Operator.Queries.GetOperatorByZone;
 using SkeletonApi.Application.Features.Settings.Operator.Queries.GetOperatorWithPagination;
-using SkeletonApi.Application.Features.Settings.Type.Queries.GetTypeByZone;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
 using System.Text.Json;

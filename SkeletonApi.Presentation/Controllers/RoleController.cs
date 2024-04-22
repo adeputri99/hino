@@ -19,6 +19,7 @@ namespace SkeletonApi.Presentation.Controllers
     {
         private readonly IMediator _mediator;
         private ILogger _logger;
+
         public RoleController(IMediator mediator, ILogger<RoleController> logger)
         {
             _mediator = mediator;
@@ -46,7 +47,6 @@ namespace SkeletonApi.Presentation.Controllers
             }
             return await _mediator.Send(command);
         }
-
 
         [HttpGet("get-all-role")]
         [ServiceFilter(typeof(AuditLoggingFilter))]
@@ -82,7 +82,5 @@ namespace SkeletonApi.Presentation.Controllers
             var errorMessages = result.Errors.Select(x => x.ErrorMessage).ToList();
             return BadRequest(errorMessages);
         }
-
     }
-
 }

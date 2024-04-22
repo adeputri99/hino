@@ -2,24 +2,20 @@
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Application.Interfaces.Repositories.Filtering;
 using SkeletonApi.Domain.Entities.Tsdb;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Persistence.Repositories.Filtering
 {
     public class DefaultRepository : IDefaultRepository
     {
         private readonly IDapperReadDbConnection _dapperReadDbConnection;
+
         public DefaultRepository(IDapperReadDbConnection dapperReadDbConnection)
         {
             _dapperReadDbConnection = dapperReadDbConnection;
         }
+
         public async Task<OkOrNgDto> GetOkOrNgDefault(string view)
         {
-           
             var data = new OkOrNgDto();
             var okOrNG = await _dapperReadDbConnection.QueryAsync<DeviceData>
                 ($@"SELECT * FROM {view} WHERE id like '%K6%'
@@ -36,7 +32,7 @@ namespace SkeletonApi.Persistence.Repositories.Filtering
             {
                 data = new OkOrNgDto
                 {
-                   Vid = "K6"
+                    Vid = "K6"
                 };
             }
             else

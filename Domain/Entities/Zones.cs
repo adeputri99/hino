@@ -13,6 +13,7 @@ namespace SkeletonApi.Domain.Entities
 
         [NotMapped]
         public Types Type { get; set; }
+
         public ICollection<Operators> Operators { get; set; } = new List<Operators>();
 
         public ICollection<Types> Types { get; set; } = new List<Types>();

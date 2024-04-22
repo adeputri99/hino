@@ -3,7 +3,6 @@ using MediatR;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Shared;
 
-
 namespace SkeletonApi.Application.Features.Accounts.Profiles.Commands.UpdateAccount
 {
     public record UpdateAccountCommand : IRequest<Result<Guid>>

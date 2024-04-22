@@ -2,20 +2,14 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using SkeletonApi.Application.Extensions;
-using SkeletonApi.Application.Features.ManagementUser.Roles.Queries.GetRoleWithPagination;
 using SkeletonApi.Application.Interfaces.Repositories;
 using SkeletonApi.Domain.Entities;
 using SkeletonApi.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SkeletonApi.Application.Features.ActivityUsers.Queries.GetActivityUserWithPagination
 {
-     public record GetActivityUserWithPaginationQuery : IRequest<PaginatedResult<GetActivityUserWithPaginationDto>>
-     {
+    public record GetActivityUserWithPaginationQuery : IRequest<PaginatedResult<GetActivityUserWithPaginationDto>>
+    {
         public int page_number { get; set; }
         public int page_size { get; set; }
         public string search_term { get; set; }
@@ -35,6 +29,7 @@ namespace SkeletonApi.Application.Features.ActivityUsers.Queries.GetActivityUser
             log_type = logType;
         }
     }
+
     internal class GetActivityUserWithPaginationQueryHandler : IRequestHandler<GetActivityUserWithPaginationQuery, PaginatedResult<GetActivityUserWithPaginationDto>>
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -61,7 +56,6 @@ namespace SkeletonApi.Application.Features.ActivityUsers.Queries.GetActivityUser
             })
             .OrderByDescending(o => o.Datetime).ProjectTo<GetActivityUserWithPaginationDto>(_mapper.ConfigurationProvider)
             .ToPaginatedListAsync(query.page_number, query.page_size, cancellationToken);
-
         }
     }
 }

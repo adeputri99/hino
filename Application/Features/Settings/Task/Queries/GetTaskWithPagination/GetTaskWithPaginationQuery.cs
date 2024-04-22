@@ -41,7 +41,7 @@ namespace SkeletonApi.Application.Features.Settings.Task.Queries.GetTaskWithPagi
             {
                 Id = o.Id,
                 Zone = o.Operator.Zone.Name,
-                TypeName = o.Operator.Zone.Types.Where(t => t.ZoneId == o.Operator.ZoneId).Select(u => u.Name).FirstOrDefault(),
+                TypeName = o.Operator.Zone.Types.Where(t => t.ZoneId == o.Operator.ZoneId).Select(u => u.TypeName).FirstOrDefault(),
                 OperatorNumber = o.Operator.Name,
                 TaskNumber = o.TaskNo,
                 TaskName = o.TaskName,

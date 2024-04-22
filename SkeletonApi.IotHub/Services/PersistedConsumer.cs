@@ -1,13 +1,11 @@
 ﻿using AutoMapper;
+using SkeletonApi.Application.Features.Settings.Task;
+using SkeletonApi.Application.Interfaces.Repositories.Configuration.Dapper;
+using SkeletonApi.Domain.Entities.Tsdb;
 using SkeletonApi.IotHub.Model;
 using SkeletonApi.IotHub.Services.Handler;
-using System.Text.Json;
 using SkeletonApi.IotHub.Services.Store;
-using SkeletonApi.IotHub.Helpers;
-using System.Globalization;
-using SkeletonApi.Application.Interfaces.Repositories.Dapper;
-using SkeletonApi.Domain.Entities.Tsdb;
-using SkeletonApi.Application.Interfaces.Repositories.Configuration.Dapper;
+using System.Text.Json;
 
 namespace SkeletonApi.IotHub.Services
 {
@@ -15,16 +13,19 @@ namespace SkeletonApi.IotHub.Services
     {
         private readonly IIoTHubEventHandler<MqttRawDataEncapsulation> _mqttStoreEventHandler;
         private readonly IotHubMachineHealthEventHandler _machineHealthEventHandler;
-
+        private readonly IoTHubTaskEventHandler _taskEventHandler;
         private readonly IServiceScopeFactory _serviceScopeFactory;
         private readonly IMapper _mapper;
         private readonly StatusMachineStore _StatusStore;
+        private readonly TaskStore _taskStore;
 
         public PersistedConsumer(IIoTHubEventHandler<MqttRawDataEncapsulation> mqttStoreEventHandler,
             IServiceScopeFactory serviceScopeFactory,
             IMapper mapper,
             IotHubMachineHealthEventHandler machineHealthEventHandler,
-            StatusMachineStore machineStore
+            IoTHubTaskEventHandler taskEventHandler,
+            StatusMachineStore machineStore,
+            TaskStore taskStore
             )
         {
             _StatusStore = machineStore;
@@ -32,7 +33,10 @@ namespace SkeletonApi.IotHub.Services
             _serviceScopeFactory = serviceScopeFactory;
             _mapper = mapper;
             _machineHealthEventHandler = machineHealthEventHandler;
+            _taskStore = taskStore;
+            _taskEventHandler = taskEventHandler;
         }
+
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _mqttStoreEventHandler.Subscribe(
@@ -41,12 +45,50 @@ namespace SkeletonApi.IotHub.Services
             {
                 if (val.mqttRawData != null && val.topics != null)
                 {
-                    await PersistDeviceDataToDBAsync(val.mqttRawData);
+                    switch (val.topics)
+                    {
+                        case string a when a.Contains("TEST"):
+                            await PersistTaskAsync(val.mqttRawData);
+                            //await PersistDeviceDataToDBAsync(val.mqttRawData);
+                            break;
+
+                        default:
+
+                            break;
+                    }
                 }
             });
 
             return Task.CompletedTask;
-        }        
+        }
+
+        private async Task PersistTaskAsync(MqttRawData value)
+        {
+            var mclist = _taskStore.GetAllTask();
+            var map = _mapper.Map<IEnumerable<TaskModel>>(mclist);
+
+            if (value.Values is not null)
+            {
+                using (var scope = _serviceScopeFactory.CreateScope())
+                {
+                    //var machineHealthList = from vls in value.Values.Where(x => x.Vid.Contains("STATUS") && x.Quality == true)
+                    //                        join ids in mclist on vls.Vid equals ids.Vid
+                    //                        where vls.Vid == ids.Vid
+                    //                        group new { vls, ids } by vls.Vid into g
+                    //                        orderby g.Key descending
+                    //                        select new MachineHealthModel
+                    //                        {
+                    //                            Id = g.Key,
+                    //                            Name = g.Last().ids.Name,
+                    //                            Value = int.Parse(g.Last().vls.Value.ToString()),
+                    //                            Datetime = DateTimeOffset.FromUnixTimeMilliseconds(g.Last().vls.Time).DateTime
+                    //                        };
+                    //machineHealthList.OrderBy(x => x.Name).ToList();
+                    _taskEventHandler.Dispatch(map);
+                }
+            }
+        }
+
         private async Task PersistDeviceDataToDBAsync(MqttRawData value)
         {
             await Console.Out.WriteLineAsync(JsonSerializer.Serialize(value));
@@ -71,7 +113,6 @@ namespace SkeletonApi.IotHub.Services
                     await Console.Out.WriteLineAsync(ex.Message);
                 }
             }
-
         }
     }
 }
